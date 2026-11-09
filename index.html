@@ -1,0 +1,582 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="BrightPath Academy offers personalized online tutoring in Computer Science, English, Biology, Mathematics, Physics, Chemistry, Islamiat and more.">
+  <meta name="theme-color" content="#493b94">
+  <title>BrightPath Academy | Learn. Grow. Shine.</title>
+
+  <!-- Custom browser tab icon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='17' fill='%23493b94'/%3E%3Cpath d='M12 23 32 13l20 10-20 10z' fill='%23fff'/%3E%3Cpath d='M21 32v10q11 12 22 0V32' fill='none' stroke='%23e9d7ff' stroke-width='5'/%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="header">
+    <nav class="container navbar">
+      <a href="#home" class="brand">
+        <span class="brand-icon">✦</span>
+        <span>BrightPath <b>Academy</b></span>
+      </a>
+
+      <button id="menuBtn" class="menu-btn"
+        aria-label="Toggle navigation"
+        aria-expanded="false">☰</button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#subjects">Subjects</a>
+        <a href="#teachers">Our Tutors</a>
+        <a href="#contact" class="nav-cta">Book a Lesson ↗</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+
+        <div class="hero-copy">
+          <div class="eyebrow">
+            <span class="sparkle">✦</span>
+            YOUR JOURNEY TO BRIGHTER LEARNING
+          </div>
+
+          <h1>Where curious<br>minds <em>shine.</em></h1>
+
+          <p>
+            Exceptional learning begins with the right guidance.
+            Discover personalized online tutoring designed to
+            inspire confidence, curiosity and academic growth.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">
+              Start Your Journey <span>↗</span>
+            </a>
+            <a href="#teachers" class="btn btn-outline">
+              Meet Our Tutors
+            </a>
+          </div>
+
+          <div class="hero-bottom">
+            <div class="mini-avatars">
+              <span>A</span>
+              <span>N</span>
+              <span>Ah</span>
+              <span>W</span>
+              <span>F</span>
+              <span>I</span>
+            </div>
+            <div>
+              <strong>6 Dedicated Tutors</strong>
+              <small>Here to guide your learning journey</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-art">
+          <div class="hero-image-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"
+              alt="Student learning and studying"
+              class="hero-image"
+              fetchpriority="high">
+          </div>
+
+          <div class="hero-sticker sticker-one">
+            <span>✦</span>
+            <div>
+              <b>Learn Your Way</b>
+              <small>Personalized 1-to-1 lessons</small>
+            </div>
+          </div>
+
+          <div class="hero-sticker sticker-two">
+            <span>🌎</span>
+            <div>
+              <b>Learn Anywhere</b>
+              <small>Online, from wherever you are</small>
+            </div>
+          </div>
+
+          <div class="decor-star">✳</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRUST STRIP -->
+    <section class="trust-strip">
+      <div class="container trust-inner">
+        <span>PERSONALIZED LEARNING</span>
+        <span>✦</span>
+        <span>FLEXIBLE ONLINE CLASSES</span>
+        <span>✦</span>
+        <span>SUPPORTIVE TUTORS</span>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-intro">
+          <span class="kicker">THE BRIGHTPATH EXPERIENCE</span>
+          <h2>Education with a <em>personal touch.</em></h2>
+          <p>
+            We believe every learner deserves encouragement,
+            understanding and the freedom to learn at their own pace.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <div class="feature-card">
+            <div class="feature-icon">✧</div>
+            <h3>One-to-One Attention</h3>
+            <p>Focused lessons designed around individual learning needs.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">◎</div>
+            <h3>Flexible Learning</h3>
+            <p>Discuss class timings that work for your schedule and time zone.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">♡</div>
+            <h3>Supportive Guidance</h3>
+            <p>A friendly environment where students can ask and explore.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SUBJECTS -->
+    <section class="section subjects" id="subjects">
+      <div class="container">
+        <div class="section-intro">
+          <span class="kicker">WHAT WE TEACH</span>
+          <h2>Explore a world of <em>knowledge.</em></h2>
+          <p>From foundational subjects to specialized learning.</p>
+        </div>
+
+        <div class="subject-grid">
+          <div class="subject-card">
+            <span>💻</span>
+            <h3>Computer Science</h3>
+            <p>Coding, computing and technology</p>
+          </div>
+
+          <div class="subject-card">
+            <span>📖</span>
+            <h3>English</h3>
+            <p>Reading, writing and grammar</p>
+          </div>
+
+          <div class="subject-card">
+            <span>🧬</span>
+            <h3>Biology</h3>
+            <p>Life science and living systems</p>
+          </div>
+
+          <div class="subject-card">
+            <span>📐</span>
+            <h3>Mathematics</h3>
+            <p>Numbers, algebra and geometry</p>
+          </div>
+
+          <div class="subject-card">
+            <span>⚛️</span>
+            <h3>Physics</h3>
+            <p>Motion, energy and the universe</p>
+          </div>
+
+          <div class="subject-card">
+            <span>🧪</span>
+            <h3>Chemistry</h3>
+            <p>Elements, reactions and matter</p>
+          </div>
+
+          <div class="subject-card">
+            <span>🌙</span>
+            <h3>Islamic Studies</h3>
+            <p>Islamiat and Quran translation</p>
+          </div>
+
+          <div class="subject-card">
+            <span>🌏</span>
+            <h3>Social Studies</h3>
+            <p>History, geography and culture</p>
+          </div>
+
+          <div class="subject-card">
+            <span>📚</span>
+            <h3>Urdu</h3>
+            <p>A language of poetry and culture</p>
+          </div>
+
+          <div class="subject-card">
+            <span>📖</span>
+            <h3>Quran Learning</h3>
+            <p>Learn About Islam</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEACHERS -->
+    <section class="section teachers" id="teachers">
+      <div class="container">
+        <div class="section-intro">
+          <span class="kicker">THE PEOPLE BEHIND THE LEARNING</span>
+          <h2>Meet our lovely <em>educators.</em></h2>
+          <p>
+            Six dedicated subject tutors ready to support
+            students on their learning journey.
+          </p>
+        </div>
+
+        <div class="teacher-grid">
+
+          <!-- Teacher 1 -->
+          <article class="teacher-card">
+            <div class="teacher-photo lavender">
+              <img src="img.png 2"
+                   alt="Illustrative female tutor portrait"
+                   loading="lazy">
+              <span class="teacher-number">01</span>
+            </div>
+            <div class="teacher-details">
+              <span class="teacher-role">COMPUTER SCIENCE TUTOR</span>
+              <h3>Ayesha</h3>
+              <p>Computer Science</p>
+              <a href="#contact" data-tutor="Ayesha">Book a Lesson ↗</a>
+            </div>
+          </article>
+
+          <!-- Teacher 2 -->
+          <article class="teacher-card">
+            <div class="teacher-photo peach">
+              <img src="download (6).jpg"
+                   alt="Illustrative female tutor portrait"
+                   loading="lazy">
+              <span class="teacher-number">02</span>
+            </div>
+            <div class="teacher-details">
+              <span class="teacher-role">ENGLISH &amp; BIOLOGY TUTOR</span>
+              <h3>Nimra</h3>
+              <p>English · Biology</p>
+              <a href="#contact" data-tutor="Nimra">Book a Lesson ↗</a>
+            </div>
+          </article>
+
+          <!-- Teacher 3 -->
+          <article class="teacher-card">
+            <div class="teacher-photo blue">
+              <img src="Mathematics Classroom Portrait _ SceneYou Teacher &amp; Academic Headshots Template.jpg"
+                   alt="Illustrative male tutor portrait"
+                   loading="lazy">
+              <span class="teacher-number">03</span>
+            </div>
+            <div class="teacher-details">
+              <span class="teacher-role">MATHEMATICS &amp; PHYSICS TUTOR</span>
+              <h3>Muhammad Ahmad</h3>
+              <p>Mathematics · Physics</p>
+              <a href="#contact" data-tutor="Muhammad Ahmad">Book a Lesson ↗</a>
+            </div>
+          </article>
+
+          <!-- Teacher 4 -->
+          <article class="teacher-card">
+            <div class="teacher-photo rose">
+              <img src="Exploring Polymer Chemistry_ Principles, Types, and Diverse Applications.jpg"
+                   alt="Illustrative chemistry tutor portrait"
+                   loading="lazy">
+              <span class="teacher-number">04</span>
+            </div>
+            <div class="teacher-details">
+              <span class="teacher-role">CHEMISTRY TUTOR</span>
+              <h3>Warda</h3>
+              <p>Chemistry</p>
+              <a href="#contact" data-tutor="Warda">Book a Lesson ↗</a>
+            </div>
+          </article>
+
+          <!-- Teacher 5 -->
+          <article class="teacher-card">
+            <div class="teacher-photo rose">
+              <img src="download (4).jpg"
+                   alt="Illustrative female tutor portrait"
+                   loading="lazy">
+              <span class="teacher-number">05</span>
+            </div>
+            <div class="teacher-details">
+              <span class="teacher-role">URDU &amp; PAK STUDIES TUTOR</span>
+              <h3>Iram</h3>
+              <p>Pak Studies, Urdu</p>
+              <a href="#contact" data-tutor="Iram">Book a Lesson ↗</a>
+            </div>
+          </article>
+
+          <!-- Teacher 6 -->
+          <article class="teacher-card">
+            <div class="teacher-photo mint">
+              <img src="img.png.jpg"
+                   alt="Illustrative female educator portrait"
+                   loading="lazy">
+              <span class="teacher-number">06</span>
+            </div>
+            <div class="teacher-details">
+              <span class="teacher-role">ISLAMIC &amp; QURAN WITH TAJWEED</span>
+              <h3>Fozia</h3>
+              <p>Islamiat · Quran with Tajweed</p>
+              <p>Translation of the Holy Quran</p>
+              <a href="#contact" data-tutor="Fozia">Book a Lesson ↗</a>
+            </div>
+          </article>
+
+        </div>
+
+        <p class="photo-note">
+          Tutor portraits are illustrative placeholders, not actual staff photos.
+        </p>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-banner">
+      <div class="container">
+        <span>✦ LET'S MAKE LEARNING BEAUTIFUL ✦</span>
+        <h2>A brighter future begins<br>with one small step.</h2>
+        <p>Let's find the right learning path for you.</p>
+        <a href="#contact" class="btn btn-light">Get Started Today ↗</a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="container contact-grid">
+
+        <div class="contact-copy">
+          <span class="kicker">WE'D LOVE TO HEAR FROM YOU</span>
+          <h2>Let's start a <em>conversation.</em></h2>
+          <p>
+            Have questions about our online classes?
+            Send us an inquiry and we'll be happy to discuss
+            your learning needs.
+          </p>
+
+          <!-- UPDATED EMAIL -->
+          <div class="contact-item">
+            <div class="contact-icon">✉</div>
+            <div>
+              <strong>Email us</strong>
+              <a href="mailto:ahmadzafar703@gmail.com">
+                ahmadzafar703@gmail.com
+              </a>
+            </div>
+          </div>
+
+          <!-- UPDATED WHATSAPP NUMBER -->
+          <div class="contact-item">
+            <div class="contact-icon">☏</div>
+            <div>
+              <strong>WhatsApp</strong>
+              <a href="https://wa.me/923167368971"
+                 target="_blank"
+                 rel="noopener noreferrer">
+                +92 316 7368971
+              </a>
+            </div>
+          </div>
+
+          <!-- UPDATED WHATSAPP BUTTON -->
+          <a href="https://wa.me/923167368971?text=Hello%20BrightPath%20Academy%2C%20I%20am%20interested%20in%20online%20tutoring"
+             target="_blank"
+             rel="noopener noreferrer"
+             class="btn whatsapp-btn">
+            Chat With Us on WhatsApp ↗
+          </a>
+        </div>
+
+        <!-- ENROLLMENT FORM -->
+        <div class="contact-form-card">
+          <div class="form-top">
+            <span>✦ ENROLLMENT INQUIRY</span>
+            <h3>Tell us about your learner.</h3>
+            <p>We'd love to know how we can help.</p>
+          </div>
+
+         <form
+    id="studentInquiryForm"
+    action="https://formsubmit.co/ajax/ahmadzafar703@gmail.com"
+    method="POST">
+
+            <input type="hidden" name="_subject"
+       value="New Student Inquiry - BrightPath Academy">
+
+<input type="hidden" name="_captcha" value="false">
+
+<input type="hidden" name="_template" value="table">
+
+<input type="text" name="_honey"
+       style="display:none"
+       tabindex="-1"
+       autocomplete="off">
+
+            <input type="hidden"
+                   name="_next"
+                   value="https://ayeshazafarcs-774.github.io/BrightPath-Academy/thank-you.html">
+
+            <div class="form-row">
+              <div class="field">
+                <label for="parentName">Parent / Student Name *</label>
+                <input id="parentName"
+                       type="text"
+                       name="name"
+                       placeholder="Full name"
+                       required>
+              </div>
+
+              <div class="field">
+                <label for="email">Email Address *</label>
+                <input id="email"
+                       type="email"
+                       name="email"
+                       placeholder="you@example.com"
+                       required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="country">Country *</label>
+                <select id="country" name="country" required>
+                  <option value="">Select country</option>
+                  <option>USA</option>
+                  <option>UK</option>
+                  <option>Canada</option>
+                  <option>Australia</option>
+                  <option>Pakistan</option>
+                  <option>Other</option>
+                </select>
+              </div>
+
+              <div class="field">
+                <label for="grade">Student Grade</label>
+                <input id="grade"
+                       name="grade"
+                       placeholder="e.g. Grade 9">
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="tutor">Preferred Tutor *</label>
+              <select id="tutor" name="tutor" required>
+                <option value="">Choose a tutor</option>
+                <option value="Ayesha">Ayesha</option>
+                <option value="Nimra">Nimra</option>
+                <option value="Muhammad Ahmad">Muhammad Ahmad</option>
+                <option value="Warda">Warda</option>
+                <option value="Fozia">Fozia</option>
+                <option value="Iram">Iram</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="subject">Subject *</label>
+              <select id="subject" name="subject" required>
+                <option value="">Choose a subject</option>
+                <option>Computer Science</option>
+                <option>English</option>
+                <option>Biology</option>
+                <option>Mathematics</option>
+                <option>Physics</option>
+                <option>Chemistry</option>
+                <option>Islamiat</option>
+                <option>Pakistan Studies</option>
+                <option>Translation of the Holy Quran</option>
+                <option>Urdu</option>
+                <option>Quran with Tajweed</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="message">Your Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Tell us about your goals, preferred timings, or any questions..."></textarea>
+            </div>
+
+            <button class="btn btn-primary form-submit"
+                    type="submit">
+              Send My Inquiry ↗
+            </button>
+
+            <p id="formStatus"
+               role="status"
+               aria-live="polite"></p>
+
+            <small class="form-note">
+              Please do not include sensitive personal information.
+            </small>
+
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-main">
+
+      <div>
+        <a href="#home" class="brand">
+          <span class="brand-icon">✦</span>
+          <span>BrightPath <b>Academy</b></span>
+        </a>
+        <p>Helping curious minds learn, grow and shine.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#subjects">Subjects</a>
+        <a href="#teachers">Tutors</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+    </div>
+
+    <div class="container footer-bottom">
+      <span>© <span id="year"></span> BrightPath Academy.</span>
+      <span>Made with ♡ for lifelong learners.</span>
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP -->
+  <a class="floating-whatsapp"
+     href="https://wa.me/923167368971"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Contact us on WhatsApp">☏</a>
+
+</body>
+</html>
+
